@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: lightcoral;
+    background-image: url("img/anime.jpg");    
+}
+.loginbox{
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px;
+    border-radius: 2px solid;
+    border-color: black;
+    /*background-color: skyblue;*/
+}
+#loginhead{
+    /* background-color: bisque; */
+    /* border-radius: 5px solid; */
+    /* border-color: aquamarine; */
+    box-shadow: 10px;
+    /* outline: 1px solid lightcoral; */
+}
+#loginbody{
+    /* border-radius: 4px solid; */
+    /* border-color: aqua; */
+    /* background-color: skyblue; */
+    /* background-image: url("img/anime.jpg"); */
+    box-shadow: 10px;
+    /* outline: 1px solid lightcoral; */
+}
+#Password{
+    float: right;
+}
+#Email{
+    float: right;
+}
+#loginbutton{
+    cursor: pointer;
+}

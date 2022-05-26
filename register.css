@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: lightcoral;
+    background-image: url("img/anime.jpg");    
+}
+.registerbox{
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px;
+    border-radius: 2px solid;
+    border-color: black;
+    /*background-color: skyblue;*/
+}
+#registerhead{
+    /* background-image: url("img/anime.jpg"); */
+    border-radius: 5px solid;
+    border-color: aquamarine;
+    box-shadow: 10px;
+    /* outline: 1px solid lightcoral; */
+}
+#registerbody{
+    border-radius: 4px solid;
+    border-color: aqua;
+    /* background-color: skyblue; */
+    /* background-image: url("img/anime.jpg"); */
+    box-shadow: 10px;
+    /* outline: 1px solid lightcoral; */
+}
+#Password{
+    float: right;
+}
+#UName{
+    float: right;
+}
+#Name{
+    float: right;
+}
+#RegisterButton{
+    cursor:pointer;
+}
+#Email{
+    float: right;
+}
+#College{
+    float: right;
+}

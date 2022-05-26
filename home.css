@@ -1,0 +1,114 @@
+#heading {
+    color:tomato;
+    background-color: antiquewhite;
+    font-size: 40px;
+    /* text-shadow: 2px 2px 2px rgb(196, 134, 255); */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    cursor:default;
+}
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav0 {
+    overflow: hidden;
+    background-color: antiquewhite;
+  }
+.topnav0 a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav0 a:hover {
+  background-color: #ddd;
+}
+
+.topnav0 a.active {
+  background-color: #2196F3;
+}
+.topnav {
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+.topnav .search-container {
+  text-align: center;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  width: 200px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  padding: 7.7px 11px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+.search-container input{
+    width: 200px;
+}
+.body-content{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* border: solid 2px yellow; */
+}
+.side-box{
+  /* border: solid blue 2px; */
+  height: 100%;
+  width: 20%;
+  text-align: center;
+}
+.post-container{
+  /* border: solid black 2px; */
+  width: 80%;
+}
+.post-container > textarea{
+  width: 70%;
+  /* margin-top: 100px; */
+  margin-left: 9px;
+}
+#postbutton{
+  /* float: right; */
+  cursor: pointer;
+  margin-left: 10px;
+  width: 50px;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 35%;
+}
+#question_box{
+  /* border: solid black 2px; */
+  width: inherit;
+  height: inherit;
+  margin: 20px 20px 20px 20px;
+  display: block;
+}
+#question_buttons{
+  display: flex;
+  height: 3%;
+}
+textarea{
+  border-radius: 10px;
+  border: double lightblue 5px;
+}

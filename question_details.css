@@ -1,0 +1,45 @@
+.topnav0 {
+    overflow: hidden;
+    background-color: antiquewhite;
+  }
+.topnav0 a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav0 a:hover {
+  background-color: #ddd;
+}
+
+.topnav0 a.active {
+  background-color: #2196F3;
+}
+#body_content{
+    display: flex;
+    flex-direction: column;
+}
+#question_box{
+    margin-left: 350px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#answer_post{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    border-radius: 10px;
+    border: double lightblue 5px;
+}
+textarea:active{
+    margin-top: 20px;
+    margin-bottom:20px;
+    color: beige;
+    border: beige;
+}
